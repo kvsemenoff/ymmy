@@ -35,18 +35,20 @@
 .photo-page .form-wrap__button { width: auto; }
 .photo-page .form-wrap span { display: block; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; padding: 0 12px; margin-right: 8px; color: grey; text-align: left; cursor: pointer; }
 .photo-page .form-wrap input { display: none; }
-.photo-page .photo-block { width: 720px; margin: 0 auto; }
-@media only screen and (max-width: 750px) { .photo-page .photo-block { width: 100%; } }
+.photo-page .photo-block { max-width: 1140px; margin: 0 auto; width: 100%; }
 .photo-page .photo_half { float: left; width: 50%; }
 @media only screen and (max-width: 750px) { .photo-page .photo_half { float: none; width: 100%; } }
-.photo-page .photo_half .fancybox { overflow: hidden; }
-.photo-page .photo_half .fancybox img { display: block; min-width: 100%; width: auto; height: 200px; }
+.photo-page .photo_half .fancybox { overflow: hidden; height: 200px; display: block; float: left; }
+@media only screen and (max-width: 450px) { .photo-page .photo_half .fancybox { height: 150px; } }
+@media only screen and (max-width: 350px) { .photo-page .photo_half .fancybox { height: 130px; } }
+.photo-page .photo_half .fancybox img { display: block; width: 100%; height: auto; min-height: 100%; }
 @media only screen and (max-width: 750px) { .photo-page .photo_half .fancybox img { width: 100%; height: auto; } }
-.photo-page .photo_half .fancybox .photo_big { height: 400px; }
-@media only screen and (max-width: 750px) { .photo-page .photo_half .fancybox .photo_big { height: auto; } }
+.photo-page .photo_half .fancybox_big { height: 400px; }
+@media only screen and (max-width: 750px) { .photo-page .photo_half .fancybox_big { height: auto; } }
 .photo-page .photo_half .half_sm .fancybox { float: left; width: 50%; }
 
-.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened { width: 88% !important; left: 6% !important; height: auto !important; }
+.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened { height: auto !important; width: 50% !important; left: 25% !important; }
+@media only screen and (max-width: 750px) { .fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened { width: 88% !important; left: 6% !important; } }
 
 .fancybox-inner { width: 100% !important; height: auto !important; }
 

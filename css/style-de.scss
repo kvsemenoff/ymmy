@@ -147,11 +147,9 @@
 		}
 	}
 	.photo-block{
-		width: 720px;
+		max-width: 1140px;
 		margin: 0 auto;
-		@media only screen and (max-width : 750px) {
-			width: 100%;
-		}
+		width: 100%;
 	}
 	.photo_half{
 		float: left;
@@ -162,17 +160,26 @@
 		}
 		.fancybox{
 			overflow: hidden;
+			height: 200px;
+			display: block;
+			float: left;
+			@media only screen and (max-width : 450px) {
+				height: 150px;
+			}
+			@media only screen and (max-width : 350px) {
+				height: 130px;
+			}
 			 img{
 				display: block;
-				min-width: 100%;
-				width: auto;
-				height: 200px;
+				width: 100%;
+				height: auto;
+				min-height: 100%;
 				@media only screen and (max-width : 750px) {
 					width: 100%;
 					height: auto;
 				}
 			}
-			.photo_big{
+			&_big{
 				height: 400px;
 				@media only screen and (max-width : 750px) {
 					height: auto;
@@ -188,9 +195,13 @@
 	}
 }
 .fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened{
-	width: 88%!important;
-	left: 6%!important;
 	height: auto!important;
+	width: 50%!important;
+	left: 25%!important;
+	@media only screen and (max-width : 750px) {
+		width: 88%!important;
+		left: 6%!important;
+	}
 }
 .fancybox-inner{
 	width: 100%!important;
