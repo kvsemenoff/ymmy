@@ -56,7 +56,7 @@
 								</div>
 								<div class="half_big">
 									<a class="fancybox" href="img/photo-7.jpg" data-fancybox-group="gallery">
-										<img src="img/photo-7.jpg" alt="" />
+										<img src="img/photo-7.jpg" alt="cat" />
 									</a>
 								</div>
 							</div>
