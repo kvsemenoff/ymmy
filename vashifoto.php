@@ -15,7 +15,7 @@
 							<form action="#">
 								<div class="form-inner">
 									<div class="form-wrap form-wrap__input">
-										<input type="file" placeholder="">
+										<input type="file">
 										<span>Выберите файл...</span>
 									</div>
 									<div class="form-wrap form-wrap__button">
