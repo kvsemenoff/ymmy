@@ -1,0 +1,37 @@
+.tovar_item {
+  max-width: 322px;
+  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #d7e3e5;
+  padding: 15px 0 18px 0; }
+
+.tovar_item__img {
+  text-align: center; }
+  .tovar_item__img img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block; }
+
+.tovar_item__text {
+  padding: 0px 21px; }
+
+.tovar_item__nameproduct {
+  color: #333333;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 0px;
+  font-size: 19px;
+  letter-spacing: 0.4px; }
+
+.tovar_item__kolvo {
+  color: #595959;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  display: block;
+  margin-bottom: 16px; }
+
+/*# sourceMappingURL=style.css.map */
