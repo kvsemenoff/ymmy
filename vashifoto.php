@@ -15,7 +15,7 @@
 							<form action="#">
 								<div class="form-inner">
 									<div class="form-wrap form-wrap__input">
-										<input type="file" placeholder="">
+										<input type="file">
 										<span>Выберите файл...</span>
 									</div>
 									<div class="form-wrap form-wrap__button">
@@ -24,10 +24,10 @@
 								</div>
 							</form>
 						</div>
-						<div class="photo-block clear">
+						<div class="photo-block clearfix">
 							<div class="photo_half">
 								<div class="half_big">
-									<a class="fancybox" href="img/photo-1.jpg" data-fancybox-group="gallery">
+									<a class="fancybox fancybox_big" href="img/photo-1.jpg" data-fancybox-group="gallery">
 										<img class="photo_big" src="img/photo-1.jpg" alt="" />
 									</a>
 								</div>
@@ -56,7 +56,7 @@
 								</div>
 								<div class="half_big">
 									<a class="fancybox" href="img/photo-7.jpg" data-fancybox-group="gallery">
-										<img src="img/photo-7.jpg" alt="" />
+										<img src="img/photo-7.jpg" alt="cat" />
 									</a>
 								</div>
 							</div>

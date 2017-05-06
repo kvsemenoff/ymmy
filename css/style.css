@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
   font-family: 'Open Sans', sans-serif; }
 
@@ -24,3 +25,20 @@ body, html {
 
 .vertical-align {
   vertical-align: middle; }
+=======
+.body { font-family: 'Open Sans', sans-serif; }
+
+body, html { height: auto; min-height: 100%; }
+
+.n-header { display: table-row; height: 1px; }
+
+.n-content { display: table-row; }
+
+.n-footer { display: table-row; height: 1px; }
+
+.n-wrapper { width: 100%; display: table; }
+
+.n-content-inner { display: table-cell; }
+
+.vertical-align { vertical-align: middle; }
+>>>>>>> 5cd24b0f112a95dba247bf8220a7ae7a82378e6c
