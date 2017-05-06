@@ -123,20 +123,26 @@
 	}
 	.form-wrap{
 		display: inline-block;
+		overflow: hidden;
 		&__input{
 			width: 250px;
 		}
 		&__button{
 			width: auto;
 		}
-		input{
-			width: 100%;
+		span{
+			display: block;
 			line-height: 35px;
 			border: 1px solid #ccc;
 			border-radius: 4px;
-	    color: transparent;
 	    padding: 0 12px;
 	    margin-right: 8px;
+	    color: grey;
+	    text-align: left;
+	    cursor: pointer;
+		}
+		input{
+	    display: none;
 		}
 	}
 	.photo-block{

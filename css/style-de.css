@@ -30,10 +30,11 @@
 @media only screen and (max-width: 700px) { .photo-page .h2 { font-size: 16px; } }
 .photo-page .photo_descr { color: #333333; font-size: 16px; display: block; text-align: center; font-weight: 300; color: #000; line-height: 1.4; margin: 0 auto; max-width: 780px; padding-bottom: 10px; width: 70%; }
 .photo-page .form-inner { text-align: center; padding: 5px 0 15px; }
-.photo-page .form-wrap { display: inline-block; }
+.photo-page .form-wrap { display: inline-block; overflow: hidden; }
 .photo-page .form-wrap__input { width: 250px; }
 .photo-page .form-wrap__button { width: auto; }
-.photo-page .form-wrap input { width: 100%; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; color: transparent; padding: 0 12px; margin-right: 8px; }
+.photo-page .form-wrap span { display: block; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; padding: 0 12px; margin-right: 8px; color: grey; text-align: left; cursor: pointer; }
+.photo-page .form-wrap input { display: none; }
 .photo-page .photo-block { width: 720px; margin: 0 auto; }
 @media only screen and (max-width: 750px) { .photo-page .photo-block { width: 100%; } }
 .photo-page .photo_half { float: left; width: 50%; }
