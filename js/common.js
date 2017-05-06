@@ -2,6 +2,10 @@
 
 $(document).ready(function(){
 
+	$('.main-menu-burger a').on("click", function(){
+			$('.main-menu_display').slideToggle();
+	});
+
 	$(".menu-button").click(function(){
 		$(".toggle__menu").slideToggle(500);
 	});
