@@ -63,34 +63,21 @@
 }
 .menu-wrap{
 	float: right;
-	width: 180px;
-}
-.h2{
-	font-weight: 700;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 36px;
-	line-height: 1.4;
-	color: #000;
-	padding-bottom: 15px;
-	@media only screen and (max-width : 992px) {
-		font-size: 24px;
+	padding-top: 10px;
+	.main-menu_padding{
+		padding: 20px 0 0;
 	}
-	@media only screen and (max-width : 700px) {
-		font-size: 16px;
+	@media only screen and (max-width : 356px) {
+		float: none;
 	}
 }
-.main{
-	padding: 100px 0;
-	@media only screen and (max-width : 992px) {
-		padding: 50px 0;
+.main-menu-burger a{
+	@media only screen and (max-width : 356px) {
+		display: block;
+		text-align: right;
 	}
-	@media only screen and (max-width : 700px) {
-		padding: 20px 0;
-	}
-	.button-wrap{
-		text-align: center;
-		padding: 10px 0;
+	@media only screen and (max-width : 356px) {
+		text-align: left;
 	}
 }
 .photo-page{
@@ -100,6 +87,21 @@
 	}
 	@media only screen and (max-width : 700px) {
 		padding: 20px 0;
+	}
+	.h2{
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 36px;
+		line-height: 1.4;
+		color: #000;
+		padding-bottom: 15px;
+		@media only screen and (max-width : 992px) {
+			font-size: 24px;
+		}
+		@media only screen and (max-width : 700px) {
+			font-size: 16px;
+		}
 	}
 	.photo_descr{
 		color: rgb(51, 51, 51);
@@ -207,9 +209,15 @@
 		padding: 50px 0 0;
 		line-height: 1;
 		font-weight: 300;
+		@media only screen and (max-width : 1000px) {
+			padding: 15px 0 0;
+		}
 	}
 	.logo{
 		display: inline-block;
 		float: left;
+		@media only screen and (max-width : 356px) {
+			float: none;
+		}
 	}
 }

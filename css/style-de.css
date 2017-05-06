@@ -15,20 +15,19 @@
 
 .top-line { position: relative; }
 
-.menu-wrap { float: right; width: 180px; }
+.menu-wrap { float: right; padding-top: 10px; }
+.menu-wrap .main-menu_padding { padding: 20px 0 0; }
+@media only screen and (max-width: 356px) { .menu-wrap { float: none; } }
 
-.h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; padding-bottom: 15px; }
-@media only screen and (max-width: 992px) { .h2 { font-size: 24px; } }
-@media only screen and (max-width: 700px) { .h2 { font-size: 16px; } }
-
-.main { padding: 100px 0; }
-@media only screen and (max-width: 992px) { .main { padding: 50px 0; } }
-@media only screen and (max-width: 700px) { .main { padding: 20px 0; } }
-.main .button-wrap { text-align: center; padding: 10px 0; }
+@media only screen and (max-width: 356px) { .main-menu-burger a { display: block; text-align: right; } }
+@media only screen and (max-width: 356px) { .main-menu-burger a { text-align: left; } }
 
 .photo-page { padding: 100px 0; }
 @media only screen and (max-width: 992px) { .photo-page { padding: 50px 0; } }
 @media only screen and (max-width: 700px) { .photo-page { padding: 20px 0; } }
+.photo-page .h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; padding-bottom: 15px; }
+@media only screen and (max-width: 992px) { .photo-page .h2 { font-size: 24px; } }
+@media only screen and (max-width: 700px) { .photo-page .h2 { font-size: 16px; } }
 .photo-page .photo_descr { color: #333333; font-size: 16px; display: block; text-align: center; font-weight: 300; color: #000; line-height: 1.4; margin: 0 auto; max-width: 780px; padding-bottom: 10px; width: 70%; }
 .photo-page .form-inner { text-align: center; padding: 5px 0 15px; }
 .photo-page .form-wrap { display: inline-block; }
@@ -56,4 +55,6 @@
 @media only screen and (max-width: 700px) { .header-top .header-color { padding: 20px 0; } }
 .header-top .button-wrap { padding: 50px 0 0; text-align: center; }
 .header-top .h1 { padding: 50px 0 0; line-height: 1; font-weight: 300; }
+@media only screen and (max-width: 1000px) { .header-top .h1 { padding: 15px 0 0; } }
 .header-top .logo { display: inline-block; float: left; }
+@media only screen and (max-width: 356px) { .header-top .logo { float: none; } }
