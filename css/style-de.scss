@@ -15,6 +15,7 @@
 		color: #000;
 	}
 	.video_descr{
+		color: rgb(51, 51, 51);
     font-family: 'Uni Sans', 'Open Sans', arial sans-serif;
     font-size: 20px;
     display: block;
@@ -53,6 +54,100 @@
 				margin: 10px auto;
 				width: auto;
 				height: auto;
+			}
+		}
+	}
+}
+
+.photo-page{
+	padding: 100px 0;
+	@media only screen and (max-width : 992px) {
+		padding: 50px 0;
+	}
+	@media only screen and (max-width : 700px) {
+		padding: 20px 0;
+	}
+	.h2{
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 36px;
+		line-height: 1.4;
+		color: #000;
+		padding-bottom: 15px;
+	}
+	.photo_descr{
+		color: rgb(51, 51, 51);
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 780px;
+    padding-bottom: 10px;
+    width: 70%;
+	}
+	.form-inner{
+		text-align: center;
+		padding: 5px 0 15px;
+	}
+	.form-wrap{
+		display: inline-block;
+		&__input{
+			width: 250px;
+		}
+		&__button{
+			width: auto;
+		}
+		input{
+			width: 100%;
+			line-height: 35px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+	    color: grey;
+	    padding: 0 12px;
+	    margin-right: 8px;
+		}
+	}
+	.photo-block{
+		width: 720px;
+		margin: 0 auto;
+		@media only screen and (max-width : 750px) {
+			width: 100%;
+		}
+	}
+	.photo_half{
+		float: left;
+		width: 50%;
+		@media only screen and (max-width : 750px) {
+			float: none;
+			width: 100%;
+		}
+		.fancybox{
+			overflow: hidden;
+			 img{
+				display: block;
+				min-width: 100%;
+				width: auto;
+				height: 200px;
+				@media only screen and (max-width : 750px) {
+					width: 100%;
+					height: auto;
+				}
+			}
+			.photo_big{
+				height: 400px;
+				@media only screen and (max-width : 750px) {
+					height: auto;
+				}
+			}
+		}
+		.half_sm{
+			.fancybox{
+				float: left;
+				width: 50%;
 			}
 		}
 	}
