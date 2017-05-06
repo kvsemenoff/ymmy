@@ -3,11 +3,12 @@
 @media only screen and (max-width: 700px) { .video-page { padding: 20px 0; } }
 .video-page .h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; }
 .video-page .video_descr { font-family: 'Uni Sans', 'Open Sans', arial sans-serif; font-size: 20px; display: block; text-align: center; text-transform: uppercase; font-weight: 300; color: #000; line-height: 1.4; }
-.video-page .col-sm-4 { float: left; width: 50%; }
 
 .video { margin: 25px auto; }
 @media only screen and (max-width: 768px) { .video { margin: 0 auto; } }
 .video iframe { width: 100%; height: auto; display: block; min-height: 100%; }
 .video_big { max-width: 720px; height: 405px; }
+@media only screen and (max-width: 768px) { .video_big { height: 300px; } }
+@media only screen and (max-width: 380px) { .video_big { height: 210px; } }
 .video_sm { height: 210px; }
-@media only screen and (max-width: 768px) { .video_sm iframe { width: auto; margin: 15px auto; } }
+@media only screen and (max-width: 768px) { .video_sm iframe { margin: 10px auto; width: auto; height: auto; } }

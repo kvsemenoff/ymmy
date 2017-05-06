@@ -24,10 +24,6 @@
     color: #000;
     line-height: 1.4;
 	}
-	.col-sm-4{
-		float: left;
-		width: 50%;
-	}
 }
 .video{
 	margin: 25px auto;
@@ -43,13 +39,20 @@
 	&_big{
 		max-width: 720px;
 		height: 405px;
+		@media only screen and (max-width : 768px) {
+			height: 300px;
+		}
+		@media only screen and (max-width : 380px) {
+			height: 210px;
+		}
 	}
 	&_sm{
 		height: 210px;
 		iframe{
 			@media only screen and (max-width : 768px) {
+				margin: 10px auto;
 				width: auto;
-				margin: 15px auto;
+				height: auto;
 			}
 		}
 	}
