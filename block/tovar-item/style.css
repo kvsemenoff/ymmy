@@ -11,7 +11,7 @@
   height: 253px; }
   .tovar_item__img img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: inline-block; }
 
 .tovar_item__text {
