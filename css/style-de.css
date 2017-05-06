@@ -8,7 +8,7 @@
 @media only screen and (max-width: 768px) { .video { margin: 0 auto; } }
 .video iframe { width: 100%; height: auto; display: block; min-height: 100%; }
 .video_big { max-width: 720px; height: 405px; }
-@media only screen and (max-width: 768px) { .video_big { height: 300px; } }
+@media only screen and (max-width: 768px) { .video_big { margin: 15px auto; height: 300px; } }
 @media only screen and (max-width: 380px) { .video_big { height: 210px; } }
 .video_sm { height: 210px; }
 @media only screen and (max-width: 768px) { .video_sm iframe { margin: 10px auto; width: auto; height: auto; } }
@@ -19,7 +19,7 @@
 .menu-wrap .main-menu_padding { padding: 20px 0 0; }
 @media only screen and (max-width: 356px) { .menu-wrap { float: none; } }
 
-@media only screen and (max-width: 356px) { .main-menu-burger a { display: block; text-align: right; } }
+@media only screen and (max-width: 992px) { .main-menu-burger a { display: block; text-align: right; } }
 @media only screen and (max-width: 356px) { .main-menu-burger a { text-align: left; } }
 
 .photo-page { padding: 100px 0; }
@@ -33,7 +33,7 @@
 .photo-page .form-wrap { display: inline-block; }
 .photo-page .form-wrap__input { width: 250px; }
 .photo-page .form-wrap__button { width: auto; }
-.photo-page .form-wrap input { width: 100%; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; color: grey; padding: 0 12px; margin-right: 8px; }
+.photo-page .form-wrap input { width: 100%; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; color: transparent; padding: 0 12px; margin-right: 8px; }
 .photo-page .photo-block { width: 720px; margin: 0 auto; }
 @media only screen and (max-width: 750px) { .photo-page .photo-block { width: 100%; } }
 .photo-page .photo_half { float: left; width: 50%; }

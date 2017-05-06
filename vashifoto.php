@@ -1,10 +1,11 @@
 <?php require_once('includes/header.php'); ?>
-<div class="n-wrapper photo-page">
+<div class="n-wrapper">
 	<div class="n-header">
 		<?php require_once('includes/header-top.php'); ?>
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
+		<div class="photo-page">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -14,7 +15,8 @@
 							<form action="#">
 								<div class="form-inner">
 									<div class="form-wrap form-wrap__input">
-										<input type="file" placeholder="Выберите файл">
+										<input type="file" placeholder="">
+										<span>Выберите файл...</span>
 									</div>
 									<div class="form-wrap form-wrap__button">
 										<button class="button button_send">Отправить фото</button>
@@ -62,6 +64,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 	<div class="n-footer">
