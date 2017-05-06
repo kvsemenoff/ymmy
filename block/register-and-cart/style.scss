@@ -1,0 +1,83 @@
+.clear{
+	clear: both;
+}
+.register{
+	padding-left: 50px;
+	background-image: url("../../img/avatar.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	a{
+		color: #988f5b;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+		display: inline-block;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	span{
+		background-color: #988f5b;
+		height: 19px;
+		width: 1px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 7px 0 8px;
+	}
+}
+.cart{
+	display: inline-block;
+	width: 190px;
+}
+.cart__img{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	float: left;
+	margin-top: 7px;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+	span{		
+		color: #988f5b;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 21px;
+		width: 19px;
+		height: 18px;
+		background-color: #eae6ca;
+		display: inline-block;
+		text-align: center;
+		border-radius: 50%;		
+		position: absolute;
+		top: -5px;
+		right: 7px;			
+	}
+}
+.cart__busket{
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	display: block;
+	float: left;
+	margin-left: 8px;
+}
+.cart__all_products{
+	font-family: 'Open Sans', sans-serif;
+	color: #6c6c7c;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	display: block;
+	float: left;
+	margin-left: 8px;
+	i{
+			font-style: normal;
+		}
+}

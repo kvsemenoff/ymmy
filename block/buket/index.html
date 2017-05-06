@@ -1,0 +1,76 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../css/fonts.css">
+
+<div class="bouquet">
+	<div class="bouquet__burger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<span class="bouquet__txt">Букеты</span>
+</div>
+<div class="menu-bouquet">
+	<ul class="menu-bouquet__tabs">
+		<li class="menu-bouquet__links"><a href="#">Цветы</a></li>
+		<li class="menu-bouquet__links"><a href="#">Для кого</a></li>
+		<li class="menu-bouquet__links"><a href="#">Цвет</a></li>
+		<li class="menu-bouquet__links"><a href="#">Повод</a></li>
+	</ul>
+	
+	<div class="bouquet_search">
+		<div class="bouquet_search__box">
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" checked="checked">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Амариллис</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Анемоны</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Букет из ранункулюсов</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Букеты альстромерий</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Букеты пионов</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Букеты ромашек</span>
+			</label>
+			<label class="bouquet_search__flower">
+				<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+				<span class="bouquet_search__checkbox_custom"></span>
+				<span class="bouquet_search__label">Букеты сирени</span>
+			</label>
+		</div>
+	</div>
+</div>
+
+
+<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
+<script>
+	$('.bouquet').on('click', function() {
+		$('.menu-bouquet').slideToggle();
+	});
+</script>
+
+
+
+
+
+
+
+

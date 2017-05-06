@@ -1,0 +1,58 @@
+.first-block {
+  height: 36px;
+  background-color: #292c2e; }
+  .first-block .intowrap-fist-block {
+    width: 330px;
+    margin: 0 auto; }
+  .first-block .first-block__link {
+    margin-left: 10px; }
+  .first-block .first-block__wrap {
+    display: inline-block; }
+
+.second-block {
+  height: 90px;
+  background-color: #f6f6f6; }
+  .second-block .logo-m {
+    margin-top: 10px; }
+  .second-block .second-block__menu {
+    float: right;
+    margin-top: 20px; }
+  .second-block .second-block__link {
+    float: right; }
+
+.third-block {
+  height: 110px;
+  background-color: #fff; }
+  .third-block .third-block__address {
+    margin-top: 10px; }
+
+.header-d {
+  visibility: hidden;
+  position: absolute; }
+
+@media only screen and (min-width: 768px) {
+  .header-m {
+    visibility: hidden;
+    position: absolute; }
+  .header-d {
+    visibility: visible;
+    position: relative; }
+    .header-d .first-block {
+      height: 200px;
+      background-color: #ffffff; }
+    .header-d .logo-td {
+      margin-left: -10px;
+      margin-top: 30px;
+      width: 100%;
+      height: auto; }
+    .header-d .first-block__address {
+      margin-top: 20px; }
+    .header-d .wrap-firstblock {
+      margin-top: 30px;
+      float: right; }
+    .header-d .first-block__telephone {
+      color: #3a4a5a; }
+    .header-d .first-block__link {
+      float: right; }
+    .header-d .first-block__search {
+      float: right; } }

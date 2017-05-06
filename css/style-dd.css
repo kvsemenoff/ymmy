@@ -1,0 +1,25 @@
+.pagination__link {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #CCCCCC;
+  text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333; }
+  .pagination__link:hover {
+    text-decoration: none; }
+  .pagination__link_span {
+    border: none;
+    text-decoration: none; }
+  .pagination__link_next {
+    border: none;
+    color: #A39762;
+    text-decoration: underline; }
+  .pagination__link_active {
+    background: #A39762;
+    color: #fff;
+    border: 1px solid #A39762;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style-dd.css.map */
