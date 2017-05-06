@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer_view {
   background: url("../img/footer-fon.jpg") no-repeat;
   margin-top: 60px; }
@@ -25,3 +26,13 @@
   margin: 0 auto; }
 
 /*# sourceMappingURL=style-db.css.map */
+=======
+.footer_view { background: url("../img/footer-fon.jpg") no-repeat; margin-top: 60px; }
+.footer_padding { padding: 40px 0 38px 0; background-size: cover; }
+.footer__logo { float: left; }
+.footer__address { color: white; font-size: 26px; font-weight: 300; float: left; }
+.footer__span1 { color: #ed008c; font-weight: 600; padding-left: 20px; }
+.footer__span2 { font-size: 11px; position: relative; top: -4px; }
+
+.footer-box { width: 210px; margin: 0 auto; }
+>>>>>>> 1cbc183e5ec17dbfaca124da2a4f05f87e46b599
