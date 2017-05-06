@@ -152,3 +152,17 @@
 		}
 	}
 }
+.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened, .fancybox-inner{
+	width: 100%!important;
+	height: auto!important;
+	max-width: 460px;
+	@media only screen and (max-width : 750px) {
+		max-width: 300px;
+	}
+}
+.fancybox-wrap{
+	@media only screen and (max-width : 750px) {
+		width: 88%!important;
+		left: 6%!important;
+	}
+}
