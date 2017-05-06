@@ -16,7 +16,7 @@
 .top-line { position: relative; }
 
 .menu-wrap { float: right; padding-top: 8px; }
-.menu-wrap .main-menu_padding { padding: 20px 0 0; }
+.menu-wrap .main-menu_padding { padding: 0; }
 @media only screen and (max-width: 356px) { .menu-wrap { float: none; } }
 
 @media only screen and (max-width: 992px) { .main-menu-burger a { display: block; text-align: right; } }
