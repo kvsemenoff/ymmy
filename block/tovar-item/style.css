@@ -1,13 +1,14 @@
 .tovar_item {
-  max-width: 322px;
   width: 100%;
   display: inline-block;
   background-color: #fff;
   border: 2px solid #d7e3e5;
-  padding: 15px 0 18px 0; }
+  padding: 15px 0 18px 0;
+  border-radius: 3px; }
 
 .tovar_item__img {
-  text-align: center; }
+  text-align: center;
+  height: 253px; }
   .tovar_item__img img {
     max-width: 100%;
     height: auto;
@@ -20,9 +21,13 @@
   color: #333333;
   font-weight: 500;
   font-family: 'Open Sans', sans-serif;
-  margin: 20px 0px;
+  margin: 20px 0px 10px 0;
   font-size: 19px;
-  letter-spacing: 0.4px; }
+  letter-spacing: 0.4px;
+  min-height: 77px; }
+  @media only screen and (min-width: 990px) {
+    .tovar_item__nameproduct {
+      margin: 20px 0px; } }
 
 .tovar_item__kolvo {
   color: #595959;

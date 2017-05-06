@@ -1,13 +1,16 @@
 .tovar_item{
-	max-width: 322px;
+	// max-width: 322px;
 	width: 100%;
+	// width: 25%;
 	display: inline-block;
 	background-color: #fff;
 	border: 2px solid rgba(215, 227, 229, 1); 
 	padding: 15px 0 18px 0;
+	border-radius: 3px;
 }
 .tovar_item__img{
 	text-align: center;
+	height: 253px;
 	img{
 		max-width: 100%;
 		height: auto;
@@ -21,9 +24,13 @@
 	color: #333333;
 	font-weight: 500;
 	font-family: 'Open Sans', sans-serif;
-	margin: 20px 0px;
+	margin: 20px 0px 10px 0;
 	font-size: 19px;
 	letter-spacing: 0.4px;
+	min-height: 77px;
+	@media only screen and (min-width : 990px) {
+		margin: 20px 0px;
+	}
 }
 .tovar_item__kolvo{
 	color: #595959;
