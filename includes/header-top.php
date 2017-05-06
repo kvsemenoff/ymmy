@@ -1,5 +1,3 @@
-<?php require_once('includes/header.php'); ?>
-
 <div class="header-top">
 	<div class="header-color">
 		<div class="container">
@@ -22,10 +20,10 @@
 						<li class="main-menu__item"><a href="#" class="main-menu__link">Видео дня</a></li>
 					</ul>
 				</div>
-				<h1 class="h1">Клуб владельцев <br> домашних животных и зоомагазин</h1>
-				<div class="button-wrap">
-					<a href="#" class="button button_main">Каталог товаров</a>
-				</div>
+			</div>
+			<h1 class="h1">Клуб владельцев <br> домашних животных и зоомагазин</h1>
+			<div class="button-wrap">
+				<a href="#" class="button button_main">Каталог товаров</a>
 			</div>
 		</div>
 	</div>

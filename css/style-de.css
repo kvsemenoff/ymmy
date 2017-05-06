@@ -13,6 +13,10 @@
 .video_sm { height: 210px; }
 @media only screen and (max-width: 768px) { .video_sm iframe { margin: 10px auto; width: auto; height: auto; } }
 
+.top-line { position: relative; }
+
+.menu-wrap { float: right; width: 180px; }
+
 .h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; padding-bottom: 15px; }
 @media only screen and (max-width: 992px) { .h2 { font-size: 24px; } }
 @media only screen and (max-width: 700px) { .h2 { font-size: 16px; } }
