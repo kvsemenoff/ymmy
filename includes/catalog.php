@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header-top.php'); ?>
-<div class="catalog-container">
-		
+
+<div class="catalog-container">		
 	<h1 class="catalog__caption">КАТАЛОГ ТОВАРОВ</h1>
 	<div class="catalog__basket">
 		<a href="#" class="button button_basket">
