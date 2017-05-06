@@ -3,7 +3,7 @@
 <div class="header-top">
 	<div class="header-color">
 		<div class="container">
-			<div class="row">
+			<div class="top-line clearfix">
 				<div class="logo">
 					<a href="#">
 						<img src="img/footer-logo.png" alt="img" class="footer__logo">
@@ -23,5 +23,3 @@
 		</div>
 	</div>
 </div>
-
-<?php require_once('includes/footer.php'); ?>

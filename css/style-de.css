@@ -13,10 +13,18 @@
 .video_sm { height: 210px; }
 @media only screen and (max-width: 768px) { .video_sm iframe { margin: 10px auto; width: auto; height: auto; } }
 
+.h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; padding-bottom: 15px; }
+@media only screen and (max-width: 992px) { .h2 { font-size: 24px; } }
+@media only screen and (max-width: 700px) { .h2 { font-size: 16px; } }
+
+.main { padding: 100px 0; }
+@media only screen and (max-width: 992px) { .main { padding: 50px 0; } }
+@media only screen and (max-width: 700px) { .main { padding: 20px 0; } }
+.main .button-wrap { text-align: center; padding: 10px 0; }
+
 .photo-page { padding: 100px 0; }
 @media only screen and (max-width: 992px) { .photo-page { padding: 50px 0; } }
 @media only screen and (max-width: 700px) { .photo-page { padding: 20px 0; } }
-.photo-page .h2 { font-weight: 700; text-align: center; text-transform: uppercase; font-size: 36px; line-height: 1.4; color: #000; padding-bottom: 15px; }
 .photo-page .photo_descr { color: #333333; font-size: 16px; display: block; text-align: center; font-weight: 300; color: #000; line-height: 1.4; margin: 0 auto; max-width: 780px; padding-bottom: 10px; width: 70%; }
 .photo-page .form-inner { text-align: center; padding: 5px 0 15px; }
 .photo-page .form-wrap { display: inline-block; }
