@@ -5,8 +5,7 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<?php require_once('includes/tovar.php'); ?>
-			<?php require_once('includes/catalog.php'); ?>
+
 		</div>
 	</div>
 	<div class="n-footer">
