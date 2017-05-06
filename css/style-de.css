@@ -37,3 +37,11 @@
 .fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened { width: 88% !important; left: 6% !important; height: auto !important; }
 
 .fancybox-inner { width: 100% !important; height: auto !important; }
+
+.header-top { background: url(../img/header-top-bg.jpg) center/cover; }
+.header-top .header-color { padding: 100px 0; background: rgba(14, 32, 48, 0.76078); }
+@media only screen and (max-width: 992px) { .header-top .header-color { padding: 50px 0; } }
+@media only screen and (max-width: 700px) { .header-top .header-color { padding: 20px 0; } }
+.header-top .button-wrap { padding: 50px 0 0; text-align: center; }
+.header-top .h1 { padding: 50px 0 0; line-height: 1; font-weight: 300; }
+.header-top .logo { display: inline-block; float: left; }
