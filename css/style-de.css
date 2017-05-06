@@ -34,7 +34,6 @@
 @media only screen and (max-width: 750px) { .photo-page .photo_half .fancybox .photo_big { height: auto; } }
 .photo-page .photo_half .half_sm .fancybox { float: left; width: 50%; }
 
-.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened, .fancybox-inner { width: 100% !important; height: auto !important; max-width: 460px; }
-@media only screen and (max-width: 750px) { .fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened, .fancybox-inner { max-width: 300px; } }
+.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened { width: 88% !important; left: 6% !important; height: auto !important; }
 
-@media only screen and (max-width: 750px) { .fancybox-wrap { width: 88% !important; left: 6% !important; } }
+.fancybox-inner { width: 100% !important; height: auto !important; }
