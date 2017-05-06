@@ -3,10 +3,12 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="footer-box">
-					<img src="img/footer-logo.png" alt="img" class="footer__logo">
-					<p class="footer__address">
-						<span class="footer__span1">YMMY</span>SHOP<span class="footer__span2">.RU</span>
-					</p>
+					<a href="#">
+						<img src="img/footer-logo.png" alt="img" class="footer__logo">
+						<p class="footer__address">
+							<span class="footer__span1">YMMY</span>SHOP<span class="footer__span2">.RU</span>
+						</p>
+					</a>
 				</div>
 			</div>
 		</div>
