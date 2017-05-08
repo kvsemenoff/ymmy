@@ -26,7 +26,7 @@
 						</div>
 						<div class="photo-block clearfix">
 							<div class="photo_half">
-								<div class="half_big">
+								<div class="half_big clearfix">
 									<a class="fancybox fancybox_big" href="img/photo-1.jpg" data-fancybox-group="gallery">
 										<img class="photo_big" src="img/photo-1.jpg" alt="" />
 									</a>
